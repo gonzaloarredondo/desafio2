@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'Oswald'
+src: url(/fonts/Oswald-SemiBold.ttf)
+}
+
+
+nav {
+    width: 80%;
+}
+
+.list-navegacion {
+    width: 150%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    padding-right: 0.5%;
+    margin-top: 0.5%;
+    flex-wrap: wrap;
+}
+
+a { 
+color: green;
+text-decoration: none;
+text-transform: uppercase;
+}
+
+header {
+display: flex;
+width: 100%;
+justify-content: space-around;
+align-items: flex-start;
+flex-wrap: wrap;
+background-color: #f77f00;
+}
+
+
+* {
+    font-family: "Oswald"; 
+}
+
+img {
+    padding-left: 10px;
+}
+
+body {
+    background-color: #90a955
+}
+
+button {
+    background-color: yellow;
+    width: 125px;
+    height: 55px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 30px;
+    justify-content: center;
+    font-size: medium;
+    }
+
+    h1 {
+        display: flex;
+        justify-content: center;
+    
+    }
